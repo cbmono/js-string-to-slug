@@ -2,8 +2,8 @@ String.prototype.toSlug = function() {
 
 	var slug = this
 		.toLowerCase()
-		.replace(/[^\w ]+/gi,'')
-		.replace(/ +/gi,'-')
+		.replace(/[^\w ]+/g,'')
+		.replace(/ +/g,'-')
 	;
 
 	return slug;
